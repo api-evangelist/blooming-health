@@ -1,0 +1,38 @@
+generated: '2026-07-18'
+method: searched
+source: https://gobloominghealth.com/
+notes: >-
+  Blooming Health publishes no OpenAPI, so these standards are asserted from the
+  provider's own public marketing/compliance statements rather than derived from a
+  machine-readable spec. Integration is enterprise-brokered (FHIR/HL7/API/SFTP,
+  EHR/CRM connectors); no public developer portal or API reference exists.
+standards:
+- id: hipaa
+  conforms: true
+  evidence: >-
+    Homepage: "HIPAA compliant by design, with encryption in transit and at rest,
+    role-based access controls, audit trails, and BAAs available."
+- id: soc2
+  conforms: true
+  evidence: >-
+    Homepage: "SOC 2 reporting and security documentation available upon request."
+- id: fhir
+  conforms: true
+  evidence: FHIR listed as a supported healthcare interoperability integration method (homepage)
+- id: hl7
+  conforms: true
+  evidence: HL7 listed as a supported healthcare interoperability integration method (homepage)
+- id: encryption-at-rest-in-transit
+  conforms: true
+  evidence: >-
+    Homepage: "Data is encrypted in transit and at rest."
+- id: rbac
+  conforms: true
+  evidence: >-
+    Homepage: "Role-based access controls and audit trails provide oversight."
+- id: oauth2
+  conforms: false
+  evidence: no public OpenAPI or OAuth documentation available
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API reference to assert error-format conformance
