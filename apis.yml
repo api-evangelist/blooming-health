@@ -12,6 +12,17 @@ description: >-
   is a healthcare portfolio company of Insight Partners. It exposes an enterprise integration
   surface but publishes no public developer portal or API reference.
 url: https://raw.githubusercontent.com/api-evangelist/blooming-health/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
